@@ -1,9 +1,8 @@
-# Yunxi_AWD_exam
-2023/12/24 Yunxi AWD Exam
+# 2023年12月24日 云曦网络空间安全研究室awd考核题目
 
-2023年12月24日 云曦网络空间安全研究室awd考核题目
+交流联系sillybbb666@gmail.com
 
-awd平台使用github开源平台，代码自行修改启动题目
+awd平台使用github开源平台mo-xiaoxi/AWD_CTF_Platform，代码自行修改启动题目
 
 本题目基于2023年国赛西南赛区半决赛book改编
 
